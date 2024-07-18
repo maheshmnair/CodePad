@@ -5,5 +5,7 @@ function main(){
 
     let output = document.getElementById("result_area");
 
-    output.contentDocument.body.innerHTML = htmlCode.value +"<style>"+ cssCode.value +"<style>"+ jsCode.value;
+    output.contentDocument.body.innerHTML = htmlCode.value +"<style>"+ cssCode.value +"<style>";
+
+    output.contentWindow.eval(jsCode.value);
 }
