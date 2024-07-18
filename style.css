@@ -55,11 +55,12 @@ textarea{
     outline: 0;
     font-size: 18px;
     padding: 10px 20px;
+    resize: none;
 }
 
 iframe{
     width: 100%;
-    height: 95%;
+    height: 96.5%;
     background: #fff;
     border: 0;
     outline: 0;
